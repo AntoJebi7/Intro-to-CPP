@@ -139,6 +139,18 @@ build CMakeFiles/cpp_codes.dir/up_arrow_pattern.cpp.obj: CXX_COMPILER__cpp_codes
   OBJECT_DIR = CMakeFiles\cpp_codes.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp_codes.dir
 
+build CMakeFiles/cpp_codes.dir/My_Leetcode/palindrome_number.cpp.obj: CXX_COMPILER__cpp_codes_unscanned_Debug D$:/cpp_codes/My$ Leetcode/palindrome$ number.cpp || cmake_object_order_depends_target_cpp_codes
+  DEP_FILE = CMakeFiles\cpp_codes.dir\My_Leetcode\palindrome_number.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp_codes.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp_codes.dir\My_Leetcode
+
+build CMakeFiles/cpp_codes.dir/My_Leetcode/roman_to_integer.cpp.obj: CXX_COMPILER__cpp_codes_unscanned_Debug D$:/cpp_codes/My$ Leetcode/roman$ to$ integer.cpp || cmake_object_order_depends_target_cpp_codes
+  DEP_FILE = CMakeFiles\cpp_codes.dir\My_Leetcode\roman_to_integer.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp_codes.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp_codes.dir\My_Leetcode
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_codes
@@ -147,7 +159,7 @@ build CMakeFiles/cpp_codes.dir/up_arrow_pattern.cpp.obj: CXX_COMPILER__cpp_codes
 #############################################
 # Link the executable cpp_codes.exe
 
-build cpp_codes.exe: CXX_EXECUTABLE_LINKER__cpp_codes_Debug CMakeFiles/cpp_codes.dir/main.cpp.obj CMakeFiles/cpp_codes.dir/cppsamples.cpp.obj CMakeFiles/cpp_codes.dir/cppdtypes.cpp.obj CMakeFiles/cpp_codes.dir/cppenum.cpp.obj CMakeFiles/cpp_codes.dir/cppstructure.cpp.obj CMakeFiles/cpp_codes.dir/cppcontrolflow.cpp.obj CMakeFiles/cpp_codes.dir/cpploops.cpp.obj CMakeFiles/cpp_codes.dir/cpppaterns.cpp.obj CMakeFiles/cpp_codes.dir/cpppyramid.cpp.obj CMakeFiles/cpp_codes.dir/pyramid_using_2_for_loops.cpp.obj CMakeFiles/cpp_codes.dir/right_to_left_half_pyramid.cpp.obj CMakeFiles/cpp_codes.dir/inverted_pyramid.cpp.obj CMakeFiles/cpp_codes.dir/mirror_image_pattern.cpp.obj CMakeFiles/cpp_codes.dir/diamond_pattern.cpp.obj CMakeFiles/cpp_codes.dir/up_arrow_pattern.cpp.obj
+build cpp_codes.exe: CXX_EXECUTABLE_LINKER__cpp_codes_Debug CMakeFiles/cpp_codes.dir/main.cpp.obj CMakeFiles/cpp_codes.dir/cppsamples.cpp.obj CMakeFiles/cpp_codes.dir/cppdtypes.cpp.obj CMakeFiles/cpp_codes.dir/cppenum.cpp.obj CMakeFiles/cpp_codes.dir/cppstructure.cpp.obj CMakeFiles/cpp_codes.dir/cppcontrolflow.cpp.obj CMakeFiles/cpp_codes.dir/cpploops.cpp.obj CMakeFiles/cpp_codes.dir/cpppaterns.cpp.obj CMakeFiles/cpp_codes.dir/cpppyramid.cpp.obj CMakeFiles/cpp_codes.dir/pyramid_using_2_for_loops.cpp.obj CMakeFiles/cpp_codes.dir/right_to_left_half_pyramid.cpp.obj CMakeFiles/cpp_codes.dir/inverted_pyramid.cpp.obj CMakeFiles/cpp_codes.dir/mirror_image_pattern.cpp.obj CMakeFiles/cpp_codes.dir/diamond_pattern.cpp.obj CMakeFiles/cpp_codes.dir/up_arrow_pattern.cpp.obj CMakeFiles/cpp_codes.dir/My_Leetcode/palindrome_number.cpp.obj CMakeFiles/cpp_codes.dir/My_Leetcode/roman_to_integer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_codes.dir

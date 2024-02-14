@@ -17,4 +17,6 @@ add_executable(cpp_codes main.cpp
         "inverted pyramid.cpp"
         "mirror image pattern.cpp"
         "diamond pattern.cpp"
-        "up arrow pattern.cpp")
+        "up arrow pattern.cpp"
+        "My Leetcode/palindrome number.cpp"
+        "My Leetcode/roman to integer.cpp")
