@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_codes"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/cpp_codes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_codes">
+				<Option output="D:/cpp_codes/cmake-build-debug/cpp_codes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp_codes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_codes"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp_codes/fast">
+				<Option output="D:/cpp_codes/cmake-build-debug/cpp_codes.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/cpp_codes/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2023.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_codes/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/cpp_codes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/cpp_codes/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;D:/cpp_codes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/cpp_codes/My Leetcode/palindrome number.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/My Leetcode/roman to integer.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cmake-build-debug/cppdtypes.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cppcontrolflow.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cppenum.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cpploops.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cpppaterns.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cpppyramid.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cppsamples.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/cppstructure.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/diamond pattern.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/inverted pyramid.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/main.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/mirror image pattern.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/pyramid using 2 for loops.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/right to left half pyramid.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/up arrow pattern.cpp">
+			<Option target="cpp_codes"/>
+		</Unit>
+		<Unit filename="D:/cpp_codes/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
