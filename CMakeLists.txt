@@ -3,7 +3,9 @@ project(cpp_codes)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(cpp_codes main.cpp
+# List all source files with their respective executable names
+set(SOURCE_FILES
+        main.cpp
         cppsamples.cpp
         cmake-build-debug/cppdtypes.cpp
         cppenum.cpp
@@ -19,4 +21,21 @@ add_executable(cpp_codes main.cpp
         "diamond pattern.cpp"
         "up arrow pattern.cpp"
         "My Leetcode/palindrome number.cpp"
-        "My Leetcode/roman to integer.cpp")
+        "My Leetcode/roman to integer.cpp"
+)
+
+# Loop through each source file and create an executable
+foreach(SRC_FILE IN LISTS SOURCE_FILES)
+    # Get the filename without directory and extension
+    get_filename_component(EXEC_NAME ${SRC_FILE} NAME_WE)
+
+    # Replace any spaces or hyphens with underscores to ensure valid executable names
+    string(REPLACE " " "_" EXEC_NAME ${EXEC_NAME})
+    string(REPLACE "-" "_" EXEC_NAME ${EXEC_NAME})
+
+    # Add the executable
+    add_executable(${EXEC_NAME} ${SRC_FILE})
+
+    # If there are additional dependencies or include directories for specific files,
+    # you can set them here using target_link_libraries or target_include_directories
+endforeach()
