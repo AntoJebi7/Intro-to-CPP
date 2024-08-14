@@ -4,6 +4,9 @@
 #include<string>
 #include<cstring>
 #include<fstream>
+#include<vector>
+#include<list>
+#include<map>
 using namespace std;
 /*
  *
@@ -133,13 +136,70 @@ string str="Anto Jebikshan";
     out<< str;
 
     out.close();
+template<class T>
+T add(T a, T b) {
+    return a+b;
+}
+class anto {
+private:
+    int a=100;
+public:
+    void ph() {
+        cout<<"function call"<<endl;
+    }
+    void prvalue() {
+        cout<<"value of a is "<<this->a<<endl;
+    }
+};
+template<class d1,class d2>
+class mul {
+private:
+    d1 value1;
+    d2 value2;
+public:
+    mul(d1 a,d2 b) {
+        value1=a;
+        value2=b;
+    }
+    void display() {
+        cout<<"the value of a is "<<value1<<endl;
+        cout<<"the value of b is "<<value2<<endl;
+    }
+};
+anto an;
+    anto* ptr = &an;
+    ptr->ph();
+    ptr->prvalue();
+    mul<int ,float> m(45,67);
+    mul<int ,float>* ptr1 = &m;
+    ptr1->display();
 
-
+    cout<<add(56,90);
+v1.push_back(500);
+void display(vector<int> v) {
+    for(auto it : v) {
+        cout<<it<<endl;
+    }
+}
+vector<int> v1 = {23,45,656,7,67,78};
+    display(v1);
+    v1.insert(v1.begin(),3);
+    display(v1);
+    cout<<v1.at(3);
+    v1.pop_back();
+    v1.erase(v1.end());
+    display(v1);
+list<int> l = {1, 2, 3, 4};
+    list<int>::iterator it = l.begin();
+    it++;
+    it++;
+    cout << "Element at index 2 is " << *it << endl;
 */
-
 
 int main() {
 
+    map<string ,int> m ={{"anto",23},{"aj",78}};
+    m["asd"]=8;
     return 0;
 
 }
