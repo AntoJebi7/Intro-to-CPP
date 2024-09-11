@@ -5,6 +5,7 @@
 #include<string>
 int main(){
     int a,b;
+    std::cout<<"Enter a and b \n";
     std::cout<<"enter a :"<<std::endl;
     std::cin>>a;
     std::cout<<"enter b"<<std::endl;
